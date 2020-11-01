@@ -2,14 +2,14 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url(./inter-v2-latin_cyrillic-regular.woff2);
+  src: url(./Inter-Regular.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url(./inter-v2-latin_cyrillic-700.woff2);
+  src: url(./Inter-Bold.woff2) format("woff2");
 }
 
 
@@ -17,26 +17,26 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  src: url(./inter-v2-latin_cyrillic-900.woff2);
+  src: url(./Inter-Black.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url(./inter-v2-latin_cyrillic-regular.woff);
+  src: url(./Inter-Regular.woff) format("woff");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url(./inter-v2-latin_cyrillic-700.woff);
+  src: url(./Inter-Bold.woff) format("woff");
 }
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  src: url(./inter-v2-latin_cyrillic-900.woff);
+  src: url(./Inter-Black.woff) format("woff");
 }
