@@ -1,0 +1,6 @@
+.cover__background {
+  display: block;
+  position: absolute;
+  max-width: 100%;
+  z-index: -1;
+}

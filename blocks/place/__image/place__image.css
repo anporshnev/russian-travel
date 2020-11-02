@@ -1,0 +1,6 @@
+.place__image {
+  width: 100%;
+  display: block;
+  margin: 32px 0;
+  line-height: 0;
+}

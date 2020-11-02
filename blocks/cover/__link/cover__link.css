@@ -1,0 +1,8 @@
+.cover__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}

@@ -19,7 +19,7 @@
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а&nbspздесь.</p>
         <img  class="lead__image" src="./images/lead-polka.jpg" alt="Иллюстрация путешествия в поезде">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -61,22 +61,22 @@
       </section>
       <section class="places">
         <div class="place">
-          <h2 class="title">Куршская коса</h2>
+          <h2 class="place__title section-title">Куршская коса</h2>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
           <p class="place__paragraph">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского
             залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона
-            на краю российского анклава.
+            на&nbsp;краю российского анклава.
           </p>
           <p class="place__paragraph">
-            На этом Калининградская область не заканчивается. Для путешественника и&nbsp;исследователя там же по&nbsp;соседству
+            На этом Калининградская область не заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там же по&nbsp;соседству
             — самая западная точка России, Балтийская коса, — и&nbsp;немецкое наследие россыпи небольших
             приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и запах
             стального, прохладного моря.
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Кольский</h2>
+          <h2 class="place__title section-title">Кольский</h2>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
           <p class="place__paragraph">
             Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга,
@@ -90,7 +90,7 @@
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Алтай</h2>
+          <h2 class="place__title section-title">Алтай</h2>
           <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
           <p class="place__paragraph">
             Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны,
@@ -104,20 +104,20 @@
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Зимний Байкал</h2>
+          <h2 class="place__title section-title">Зимний Байкал</h2>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
           <p class="place__paragraph">
             Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно
             из красивейших мест в&nbsp;России.
           </p>
           <p class="place__paragraph">
-            Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник
-            привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года
+            Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник
+            привязывает себя к&nbsp;мотоциклу,&nbsp;и&nbsp;тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года
             на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
           </p>
         </div>
         <div class="place">
-          <h2 class="title">Карелия</h2>
+          <h2 class="place__title section-title">Карелия</h2>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
           <p class="place__paragraph">
             Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера.
@@ -129,11 +129,22 @@
         </div>
       </section>
       <section class="cover">
-
+        <a class="cover__link" href="#">
+          <h2 class="cover__title section-title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;и&nbsp;iframes — путешествие от&nbsp;столицы до Байкала на электричках.</p>
+          <img  class="cover__background" src="./images/cover-trains.jpg" alt="Фоновое изображение">
+        </a>
       </section>
     </main>
     <footer class="footer">
-
+      <ul class="footer__links">
+          <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li><a class="footer__link" href="https://calendar.yandex">Календарь</a></li>
+          <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+      </ul>
+      <p class="footer__copyright">&copy; 2020. Andrew Porshnev</p>
     </footer>
   </div>
 </body>
