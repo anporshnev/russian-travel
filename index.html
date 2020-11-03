@@ -9,11 +9,11 @@
 </head>
 <body class="main">
   <div class="page">
-    <header class="header main-indent">
+    <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип страны">
       <div class="header__links">
-        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
+        <a class="header__lang-link header__lang-link_active link" href="#">Ru</a>
+        <a class="header__lang-link link" href="#">En</a>
       </div>
 </header>
     <main class="content">
@@ -23,7 +23,7 @@
         <img  class="lead__image" src="./images/lead-polka.jpg" alt="Иллюстрация путешествия в поезде">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
-      <section class="intro main-indent">
+      <section class="intro">
         <h2 class="section-title">Чего мы там не&nbsp;видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только 36% планируют
@@ -35,14 +35,14 @@
           по&nbsp;родной стране. Мы выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <p class="intro__list">
-          Часовых поясов 11<br>
-          Объектов природного наследия ЮНЕСКО 12<br>
-          Объектов культурного наследия ЮНЕСКО 16<br>
-          Природных заповедников 105<br>
-          Аэропортов 241
+          Часовых поясов <span class="intro__span-font">11</span><br>
+          Объектов природного наследия ЮНЕСКО <span class="intro__span-font">12</span><br>
+          Объектов культурного наследия ЮНЕСКО <span class="intro__span-font">16</span><br>
+          Природных заповедников <span class="intro__span-font">105</span><br>
+          Аэропортов <span class="intro__span-font">241</span>
         </p>
       </section>
-      <section class="photo-grid main-indent">
+      <section class="photo-grid">
         <div class="photo-grid__items">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Иллюстрация галереи">
         <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Иллюстрация галереи">
@@ -132,17 +132,16 @@
         <a class="cover__link" href="#">
           <h2 class="cover__title section-title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;и&nbsp;iframes — путешествие от&nbsp;столицы до Байкала на электричках.</p>
-          <img  class="cover__background" src="./images/cover-trains.jpg" alt="Фоновое изображение">
         </a>
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
-          <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-          <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-          <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-          <li><a class="footer__link" href="https://calendar.yandex">Календарь</a></li>
-          <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+        <ul class="footer__links">
+          <li><a class="footer__link link" href="https://yandex.ru/maps">Карты</a></li>
+          <li><a class="footer__link link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li><a class="footer__link link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li><a class="footer__link link" href="https://calendar.yandex">Календарь</a></li>
+          <li><a class="footer__link link" href="https://travel.yandex.ru">Путешествия</a></li>
       </ul>
       <p class="footer__copyright">&copy; 2020. Andrew Porshnev</p>
     </footer>
