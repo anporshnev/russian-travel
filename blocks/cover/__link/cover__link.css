@@ -16,5 +16,16 @@
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: .8;
+}
+
+.cover__link::before {
+  content: "";
+  background-color: #2A2C2F;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   opacity: .3;
 }

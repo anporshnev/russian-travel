@@ -4,7 +4,8 @@
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
-  margin: 16px auto 40px;
+  white-space: pre-line;
+  margin: 5vw auto 12.5vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,7 +13,7 @@
     max-width: 640px;
     font-size: 30px;
     line-height: 1.2;
-    margin: 32px auto 56px;
+    margin: 4.17vw auto 7.29vw;
   }
 }
 

@@ -1,7 +1,23 @@
 .place {
-  padding-bottom: 49px;
+  padding-bottom: 15.31vw;
 }
 
 .place:nth-last-child(1) {
   padding-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .place {
+    padding-bottom: 9.51vw;
+    display: grid;
+    grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
+    grid-template-rows: min-content 5fr;
+    gap: 6.25vw 3.65vw;
+    justify-content: center;
+    grid-template-areas:
+    "title website"
+    "image text-wrap"
+  }
+}
+
+

@@ -1,12 +1,12 @@
 .intro {
-  padding-top: 64px;
+  padding-top: 20vw;
   min-width: 288px;
   margin: 0 5vw;
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    padding-top: 88px;
+    padding-top: 11.46vw;
     min-width: 720px;
     margin: 0 3.13vw;
   }

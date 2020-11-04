@@ -1,5 +1,9 @@
 .places {
-  padding-top: 64px;
+  padding-top: 20vw;
 }
 
-
+@media screen and (min-width: 768px) {
+  .places {
+    padding: 11.72vw 3.13vw 0;
+  }
+}

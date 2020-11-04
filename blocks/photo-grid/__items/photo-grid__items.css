@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
-    gap: 16px;
+    gap: 2.08vw;
   }
 
 }

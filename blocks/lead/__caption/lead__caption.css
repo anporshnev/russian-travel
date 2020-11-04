@@ -5,11 +5,11 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin: 8px 0 0 0;
-  padding: 0 16px;
+  padding: 0 5vw;
 }
 
 @media screen and (min-width: 768px) {
   .lead__caption {
-    padding: 0 24px;
+    padding: 0 3.13vw;
   }
 }
