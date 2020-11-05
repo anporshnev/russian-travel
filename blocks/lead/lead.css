@@ -11,3 +11,9 @@
     padding: 48px 4.69vw 0;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 4.37vw 11.56vw 0;
+  }
+}
