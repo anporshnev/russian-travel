@@ -7,3 +7,9 @@
     padding: 11.72vw 3.13vw 0;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .places {
+    padding: 8.98vw 4.69vw 0;
+  }
+}

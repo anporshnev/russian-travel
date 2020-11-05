@@ -21,3 +21,9 @@
     margin-top: 11.5vw;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin-top: 8.98vw;
+  }
+}

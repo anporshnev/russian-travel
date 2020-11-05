@@ -16,5 +16,11 @@
     padding: 11.46vw 3.13vw 3.13vw;
     min-height: 0;
   }
+}
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    min-width: 928px;
+    padding: 8.98vw 4.69vw 2.34vw;
+  }
 }
