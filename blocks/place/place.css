@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
     grid-template-rows: min-content 5fr;
-    gap: 6.25vw 3.65vw;
+    gap: 48px 28px;
     justify-content: center;
     grid-template-areas:
     "title website"
@@ -20,4 +20,10 @@
   }
 }
 
-
+@media screen and (min-width: 1024px) {
+  .place {
+    padding-bottom: 92px;
+    grid-template-columns: minmax(440px, max-content) minmax(456px, max-content);
+    gap: 48px 32px;
+  }
+}

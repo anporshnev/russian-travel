@@ -3,16 +3,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
-    gap: 2.08vw;
+    gap: 16px;
   }
 
 }
 
 @media screen and (min-width: 1024px) {
   .photo-grid__items {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /*Статичный размер фото без завис-ти размера экрана + margin auto + max-width;*/
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
+
+    /*Масштабируемые фото в зав от размера экрана*/
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
+
     grid-template-rows: auto;
     grid-auto-flow: row;
-    gap: 1.36vw;
+    gap: 12px;
   }
 }
