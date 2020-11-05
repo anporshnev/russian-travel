@@ -7,3 +7,12 @@
   }
 
 }
+
+@media screen and (min-width: 1024px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    gap: 1.36vw;
+  }
+}

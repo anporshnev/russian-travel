@@ -11,3 +11,11 @@
     margin: 0 3.13vw;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    max-width: 690px;
+    margin: 0 0 0 4.69vw;
+  }
+}
