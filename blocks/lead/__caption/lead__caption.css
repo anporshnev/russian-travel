@@ -13,3 +13,10 @@
     padding: 0 3.13vw;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    align-self: start;
+    padding: 0;
+  }
+}
