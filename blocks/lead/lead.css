@@ -8,12 +8,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 48px 4.69vw 0;
+    /* padding: 48px 4.69vw 0; */
+    padding-right: 4.69vw;
+    padding-left: 4.69vw;
+    padding-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    padding: 4.37vw 11.56vw 0;
+    /* padding: 4.37vw 11.56vw 0; */
+    padding-top: 4.37vw;
+    padding-right: 11.56vw;
+    padding-left: 11.56vw;
   }
 }

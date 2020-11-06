@@ -1,8 +1,9 @@
 .place__image {
   width: 100%;
   display: block;
-  margin: 32px 0;
-  /* line-height: 0; */
+  /* margin: 32px 0; */
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {

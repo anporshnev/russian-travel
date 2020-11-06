@@ -1,10 +1,10 @@
-  .header {
-    min-width: 288px;
-    margin: 0 5vw;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    padding-top: 16px;
+.header {
+  min-width: 288px;
+  margin: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,13 +12,13 @@
     min-width: 720px;
     padding-top: 28px;
     margin: 0 3.13vw;
-
 }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
     min-width: 928px;
-    margin: 0 48px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }

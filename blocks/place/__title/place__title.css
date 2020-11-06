@@ -9,8 +9,9 @@
   .place__title {
     grid-area: title;
     font-size: 42px;
-    line-height: 1.09;
-    margin: 0;
+    /* margin: 0; */
+    margin-right: 0;
+    margin-left: 0;
     white-space: pre-line;
     align-self: end;
   }
@@ -20,5 +21,7 @@
   .place__title {
     font-size: 72px;
     line-height: 1.06;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }

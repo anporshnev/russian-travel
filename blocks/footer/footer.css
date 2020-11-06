@@ -34,6 +34,7 @@
 @media screen and (min-width: 1280px) {
   .footer {
     min-width: 1184px;
-    padding: 7.18vw 48px 1.87vw;
+    padding-top: 7.18vw;
+    padding-bottom: 1.87vw;
   }
 }

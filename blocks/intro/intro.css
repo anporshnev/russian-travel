@@ -8,7 +8,9 @@
   .intro {
     padding-top: 11.46vw;
     min-width: 720px;
-    margin: 0 3.13vw;
+    /* margin: 0 3.13vw; */
+    margin-right: 3.13vw;
+    margin-left: 3.13vw;
   }
 }
 
@@ -17,11 +19,13 @@
     padding-top: 92px;
     max-width: 690px;
     margin: 0 0 0 4.69vw;
+
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    margin: 0 0 0 11.56vw;
+    /* margin: 0 0 0 11.56vw; */
+    margin-left: 11.56vw;
   }
 }
