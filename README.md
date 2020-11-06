@@ -20,6 +20,6 @@
 
 
 
-* [Ссылка на проект](https://anporshnev.github.io/russian-travel/)
+* [Ссылка на проект](https://anporshnev.github.io/russian-travel/index.html)
 
 
