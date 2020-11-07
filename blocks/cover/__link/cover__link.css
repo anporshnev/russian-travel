@@ -21,4 +21,5 @@
   left: 0;
   right: 0;
   opacity: .3;
+  transition: opacity .3s ease;
 }
